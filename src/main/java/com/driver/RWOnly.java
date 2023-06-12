@@ -1,15 +1,11 @@
 package com.driver;
 
 public class RWOnly {
-    private String name; // Task 2: Private member variable 'name'
-
-    // Task 5: Getter function for 'name'
-    public String getName() {
-        return name;
+    private String name;
+    public String getName(){
+        return this.name;
     }
-
-    // Task 5: Setter function for 'name'
-    public void setName(String newName) {
+    public void setName(String name){
         this.name = name;
     }
 }

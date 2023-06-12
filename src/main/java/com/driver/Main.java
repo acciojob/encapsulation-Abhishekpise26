@@ -10,7 +10,7 @@ public class Main {
         // obj.name = "John"; // Uncommenting this line will cause an error
 
         // Task 6: Set a value to 'name' using setter function and access it using getter function
-        obj.setName("Abhishek");
+        obj.setName("");
         obj.getName();
 
     }
